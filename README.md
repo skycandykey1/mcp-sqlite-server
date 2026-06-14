@@ -1,6 +1,6 @@
 # MCP Server for SQLite (read-only) — safe SQL for your AI agent
 
-[![tests](https://github.com/yourhandle/mcp-sqlite-server/actions/workflows/ci.yml/badge.svg)](https://github.com/yourhandle/mcp-sqlite-server/actions)
+[![tests](https://github.com/skycandykey1/mcp-sqlite-server/actions/workflows/ci.yml/badge.svg)](https://github.com/skycandykey1/mcp-sqlite-server/actions)
 [![python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 [![MCP](https://img.shields.io/badge/MCP-Model_Context_Protocol-8A2BE2)](https://modelcontextprotocol.io)
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
@@ -38,7 +38,7 @@ Defense in depth: even if one layer is bypassed, the other still holds. (There's
 ## Quick start (≈ 1 minute)
 
 ```bash
-git clone https://github.com/yourhandle/mcp-sqlite-server
+git clone https://github.com/skycandykey1/mcp-sqlite-server
 cd mcp-sqlite-server
 pip install -r requirements.txt
 
@@ -99,8 +99,8 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-> 💼 **Built by `Ten Cua May` — available for AI agent & automation contract work.**
-> I build agents, MCP servers, and LLM automation. → `you@example.com` · `https://calendly.com/you/intro`
+> 💼 **Built by `skycandykey1` — available for AI agent & automation contract work.**
+> I build agents, MCP servers, and LLM automation. → `skycandykey456@gmail.com` · `https://github.com/skycandykey1`
 
 <!-- After publishing (SEO):
      About: "Read-only SQLite MCP server (Model Context Protocol) — safe SQL access for AI agents"
