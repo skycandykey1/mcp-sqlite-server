@@ -1,0 +1,13 @@
+{
+  "// note": "Add this to your Claude Desktop config (Settings > Developer > Edit Config). Use an ABSOLUTE path for SQLITE_DB_PATH.",
+  "mcpServers": {
+    "sqlite-readonly": {
+      "command": "python",
+      "args": ["-m", "mcp_sqlite.server"],
+      "cwd": "/absolute/path/to/mcp-sqlite-server",
+      "env": {
+        "SQLITE_DB_PATH": "/absolute/path/to/your.db"
+      }
+    }
+  }
+}

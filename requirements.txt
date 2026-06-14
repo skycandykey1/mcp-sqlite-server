@@ -1,0 +1,2 @@
+# The official Model Context Protocol Python SDK (includes FastMCP + the `mcp` CLI).
+mcp[cli]>=1.2

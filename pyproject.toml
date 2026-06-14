@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-sqlite-server"
+version = "0.1.0"
+description = "A read-only SQLite MCP server (Model Context Protocol) — give your AI agent safe SQL access to a database."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+keywords = ["mcp", "mcp server", "model context protocol", "sqlite", "claude", "anthropic", "ai agent"]
+dependencies = ["mcp[cli]>=1.2"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+mcp-sqlite-server = "mcp_sqlite.server:main"
+
+[tool.setuptools]
+packages = ["mcp_sqlite"]
